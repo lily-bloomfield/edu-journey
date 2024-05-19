@@ -1,0 +1,49 @@
+.journeysCards-container {
+  position: relative;
+}
+
+.journeyCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  height: 280px;
+  border-radius: 20px;
+  margin: 2.5rem;
+  background-color: var(--color-bg-light);
+  box-shadow: 0 2px 10px rgba(201, 197, 202, 0.2);
+  padding: 1rem 2rem 1rem 0;
+  overflow: hidden;
+}
+.journeyCard p {
+  color: var(--color-text-grey);
+  margin: 1rem 0;
+}
+
+.journeyCard-left {
+  width: 40%;
+  height: 230px;
+  height: auto;
+  overflow: hidden;
+}
+.journeyCard-left img {
+  width: 115%;
+  object-fit: cover;
+  object-position: center;
+}
+.journeyCard-right {
+  width: 58%;
+}
+.journeyCard-right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features i {
+  margin: 1rem;
+}
+.features i:hover {
+  cursor: pointer;
+}

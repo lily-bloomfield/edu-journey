@@ -1,0 +1,80 @@
+.login-container {
+  padding: 5rem 4rem 5rem 4rem;
+  background-color: #f6f8fa;
+}
+.form-container {
+  /* background-color: #f4f4f4; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  font-family: var(--body-font-family);
+}
+.signup-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.signup-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 16px;
+}
+.signup-form button:hover {
+  background: var(--color-primary-dark);
+}
+
+.signup-form .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.signup-form .options a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+.signup-form .options a:hover {
+  text-decoration: underline;
+}
+.options div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-form .login-link {
+  text-align: center;
+  margin-top: 10px;
+}
+.signup-form .login-link a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+.signup-form .login-link a:hover {
+  text-decoration: underline;
+}
